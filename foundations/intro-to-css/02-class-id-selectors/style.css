@@ -1,0 +1,24 @@
+
+p {
+    background-color: 	#F88379;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+div {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.adjust-font-size {
+    font-size: 24px;
+}
+
+#two {
+    color: #2a03fd;
+    font-size: 36px;
+}
+
+#four{
+    background-color: #05f02f;
+    font-weight: 600;
+}
