@@ -3,13 +3,13 @@ button {
     font-family: "Helvetica","Times New Roman",sans-serif;
 }
 
-button.first-jawn {
+.first-jawn {
     color: #FFFFFF;
     background-color:#000000;
 
 }
 
-button.second-jawn {
+.second-jawn {
 
     color: #000000;
     background-color: #fffb00;
