@@ -15,11 +15,18 @@ body {
   justify-content: center;
 }
 
+.text {
+  margin-bottom: 12px;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 16px;
+  gap: 20px;
 }
 
 .icon {
@@ -31,9 +38,24 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
 }
+
+.container {
+  padding-left: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
 
 .close-button {
   background: #eee;
@@ -48,6 +70,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  gap: 8px;
 }
 
 button {
@@ -67,3 +90,11 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+
+/*The blue icon is aligned to the left.
+There is equal space on either side of the icon (the gaps between the icon and the edge of the card, and the icon and the text, are the same).
++ There is padding around the edge of the modal.
+The header, text, and buttons are aligned with each other.
+The header is bold and a slightly larger text-size than the text.
+The close button is vertically aligned with the header, and aligned in the top-right of the card. */
